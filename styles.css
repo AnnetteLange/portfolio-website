@@ -348,6 +348,7 @@ h2 {
 
 .legal-page__header {
   margin-bottom: 2rem;
+  padding-inline: clamp(1.25rem, 4vw, 3rem);
 }
 
 .legal-page h1 {
