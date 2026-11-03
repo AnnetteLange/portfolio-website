@@ -342,8 +342,14 @@ h2 {
 }
 
 .legal-page {
-  max-width: 62rem;
   padding-block: clamp(2.5rem, 6vw, 5rem);
+}
+
+.legal-page__header,
+.legal-toc,
+.legal-copy {
+  max-width: 62rem;
+  margin-inline: auto;
 }
 
 .legal-page__header {

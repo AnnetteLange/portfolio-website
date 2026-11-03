@@ -311,6 +311,11 @@
   isolation: isolate;
 }
 
+.motif-concept.legal-concept .legal-page::before {
+  top: 0;
+  left: 0;
+}
+
 .motif-concept.legal-concept .legal-note {
   border-left-color: #756895;
   background: #e9e4f1;
@@ -435,11 +440,15 @@
     border-bottom: 0;
   }
 
-  .motif-concept.case-page .case-hero::before,
-  .motif-concept.legal-concept .legal-page::before {
+  .motif-concept.case-page .case-hero::before {
     top: -1rem;
     left: -7rem;
     width: 28rem;
+    opacity: 0.09;
+  }
+
+  .motif-concept.legal-concept .legal-page::before {
+    width: min(28rem, 100%);
     opacity: 0.09;
   }
 }
