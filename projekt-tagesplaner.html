@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tagesplaner: eine persönliche Flutter-App, um To-dos und Ideen zu sammeln, den Tag bewusst zu planen und Erledigtes sichtbar zu machen.">
+  <title>Tagesplaner · App-Projekt · Annette Lange</title>
+  <link rel="icon" href="assets/icons/favicon.svg?v=20260819b" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="design-vorschlag.css?v=20260819f">
+</head>
+<body class="motif-concept case-page case-page--tagesplaner">
+  <a class="skip-link" href="#main">Direkt zum Inhalt</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Zur Portfolio-Startseite">
+      <span class="brand__mark" aria-hidden="true">AL</span>
+      <span>Annette Lange</span>
+    </a>
+    <nav class="site-nav" aria-label="Projektnavigation">
+      <a href="index.html#projekte">Alle Projekte</a>
+      <a href="projekt-foerderverein.html">Vorheriges Projekt <span aria-hidden="true">←</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <header class="case-hero section-shell">
+        <div class="case-hero__copy">
+          <p class="eyebrow">Eigenes Projekt · App-Entwicklung · UX/UI</p>
+          <h1>Tagesplaner</h1>
+          <p class="case-hero__lead">Ich entwickle eine App, in der ich Einfälle sofort festhalte, mir täglich Aufgaben aussuche und am Ende sehe, was ich geschafft habe.</p>
+          <div class="tag-row" aria-label="Projektmerkmale">
+            <span>Flutter</span>
+            <span>Android</span>
+            <span>In Entwicklung</span>
+          </div>
+        </div>
+        <figure class="case-hero__visual case-hero__visual--browser">
+          <img src="assets/images/tagesplaner/board-heute.png" alt="Auf dem Mac gerenderte Tagesansicht mit fiktiven Alltagsaufgaben wie Küche putzen, Halloween-Party planen, Wäsche waschen und Wohnzimmer aufräumen in weißen Spalten" width="2760" height="1640">
+          <figcaption>Mac-Vorschau mit fiktiven Alltagsaufgaben: Küche putzen, Halloween-Party planen, Wäsche waschen und Aufräumen. Stand 22. Oktober 2026.</figcaption>
+        </figure>
+        <section class="case-facts" aria-label="Projektübersicht">
+          <div><span>Ausgangsfrage</span><strong>Wie kann ich alles festhalten, den Tag bewusst planen und Erledigtes sichtbar machen?</strong></div>
+          <div><span>Rolle</span><strong>Konzeption, Entwicklung und UX-Weiterentwicklung</strong></div>
+          <div><span>Umsetzung</span><strong>Flutter-App mit lokal gespeicherten Daten</strong></div>
+          <div><span>Aktueller Stand</span><strong>Board, Eingabemaske und weitere Bedienverbesserungen sind umgesetzt · Stand 22. Oktober 2026</strong></div>
+          <div><span>Status</span><strong>In Entwicklung</strong></div>
+        </section>
+      </header>
+
+      <section class="content-section section-shell content-grid" aria-labelledby="context-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 · Idee</p>
+          <h2 id="context-title">Einfälle auffangen. Den Tag planen. Fortschritt sehen.</h2>
+        </div>
+        <div class="prose">
+          <p>Mir fallen oft To-dos, Ideen und Dinge ein, die ich irgendwann machen möchte – auch wenn gerade keine Zeit dafür ist. Ich wollte einen Ort, an dem ich sie sofort sammeln kann, ohne sie schon einem Tag zuweisen zu müssen.</p>
+          <p>Am Abend oder am Morgen wähle ich daraus aus, was ich an diesem Tag angehen möchte. Die Done-Spalte ist für mich mehr als eine Statusanzeige: Wenn sich ein Tag unproduktiv anfühlt, zeigt sie mir als sichtbaren Beleg, was ich tatsächlich erledigt habe.</p>
+          <p>Die App ist für die persönliche Nutzung gedacht. Daten bleiben lokal auf dem Gerät; ein Konto oder Netzwerkdienst ist nicht nötig.</p>
+        </div>
+      </section>
+
+      <section class="content-section content-section--ink" aria-labelledby="current-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading--wide">
+            <p class="eyebrow">02 · Aktueller Stand</p>
+            <h2 id="current-title">Vom spontanen Einfall zum sichtbaren Erfolg.</h2>
+          </div>
+          <div class="process-cards">
+            <div>
+              <span class="process-cards__number">01</span>
+              <h3>Sammeln</h3>
+              <p>Im Backlog halte ich Aufgaben und Ideen fest, sobald sie mir einfallen. Sie können dort ohne Planungstag warten.</p>
+            </div>
+            <div>
+              <span class="process-cards__number">02</span>
+              <h3>Auswählen</h3>
+              <p>Für einen Tag suche ich mir Aufgaben aus dem Backlog aus. Planned und Doing zeigen, was ich vorhabe und woran ich arbeite.</p>
+            </div>
+            <div>
+              <span class="process-cards__number">03</span>
+              <h3>Erfolge sehen</h3>
+              <p>Done zeigt die erledigten Aufgaben des Tages. Beim Abschließen erscheint kurz Konfetti; ein großer Haken bleibt auf der Karte sichtbar.</p>
+            </div>
+          </div>
+          <figure class="phone-frame done-preview">
+            <img src="assets/images/tagesplaner/done-haken.png" alt="Done-Spalte mit den fiktiven Aufgaben „Wohnzimmer aufräumen“ und „Müll rausbringen“ sowie großen Haken auf den Karten" width="780" height="1688" loading="lazy">
+            <figcaption>Erledigte Beispielaufgaben bleiben mit einem großen Haken in Done sichtbar. Mac-Vorschau vom 22. Oktober 2026.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="content-section content-section--gallery" aria-labelledby="screens-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading--wide">
+            <p class="eyebrow">03 · App-Einblicke</p>
+            <h2 id="screens-title">Planung und Aufgaben im Überblick.</h2>
+          </div>
+          <div class="screen-story screen-story--balanced">
+            <figure class="screen-story__desktop">
+              <img src="assets/images/tagesplaner/board-vorausplanung.png" alt="Board-Vorschau für den 23. Oktober 2026 mit den fiktiven Aufgaben „Bad putzen“ und „Einkaufen gehen“ in Planned sowie drei Alltagsaufgaben im Backlog" width="2760" height="1640" loading="lazy">
+              <figcaption>„Bad putzen“ und „Einkaufen gehen“ sind für den nächsten Tag eingeplant; drei weitere Alltagsaufgaben bleiben im Backlog. Mac-Vorschau vom 22. Oktober 2026.</figcaption>
+            </figure>
+            <figure class="phone-frame">
+              <img src="assets/images/tagesplaner/aufgabenmenue.png" alt="Aufgabenmenü des fiktiven Eintrags „Küche putzen“ mit Bearbeiten, Unteraufgabe hinzufügen, Priorität und Erledigt am" width="780" height="1688" loading="lazy">
+              <figcaption>Aktionen für den Beispieleintrag „Küche putzen“, einschließlich „Erledigt am …“. Mac-Vorschau vom 22. Oktober 2026.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" aria-labelledby="editor-title">
+        <div class="section-heading">
+          <p class="eyebrow">04 · UX-Überarbeitung</p>
+          <h2 id="editor-title">Die Eingabemaske an meinen Alltag angepasst.</h2>
+        </div>
+        <div class="content-grid">
+          <div class="prose">
+            <p>Ich bin die einzige Nutzerin der App. Beim eigenen Gebrauch habe ich beobachtet, welche Angaben ich beim schnellen Festhalten einer Idee tatsächlich brauche. Unnötige Eingaben habe ich entfernt und die übrigen in eine Reihenfolge gebracht, die meinem Ablauf entspricht.</p>
+            <p>Der Titel steht zuerst, damit ein Gedanke sofort festgehalten ist. Danach folgen Eintragstyp, Farbe, Priorität und Unteraufgaben. Beschreibung und Planungstag kann ich bei Bedarf später ergänzen.</p>
+            <p><a href="https://github.com/AnnetteLange/tagesplaner" target="_blank" rel="noopener noreferrer">Quellcode auf GitHub ansehen <span aria-hidden="true">↗</span></a></p>
+          </div>
+          <figure class="phone-frame">
+            <img src="assets/images/tagesplaner/eintrag-erstellen.png" alt="Eingabemaske für den fiktiven Eintrag „Kleiderschrank aufräumen“ mit Titel, Typ, Farbe, Priorität, Unteraufgaben und Beschreibung" width="780" height="2000" loading="lazy">
+            <figcaption>Die überarbeitete Eingabemaske mit einem fiktiven Beispieleintrag. Mac-Vorschau vom 22. Oktober 2026.</figcaption>
+          </figure>
+        </div>
+      </section>
+      <section class="content-section content-section--tint" aria-labelledby="board-update-title">
+        <div class="section-shell">
+          <div class="section-heading">
+            <p class="eyebrow">05 · Weiterentwicklung im Alltag</p>
+            <h2 id="board-update-title">Wichtige Aktionen direkt am richtigen Ort.</h2>
+          </div>
+          <div class="content-grid">
+            <div class="prose">
+              <p>Nach der Eingabemaske habe ich die Bedienung des Boards weiter überarbeitet. Die Änderungen vom 17. Oktober 2026 betreffen das Ordnen, Ergänzen, Verschieben und Abschließen von Aufgaben.</p>
+              <p><strong>Prioritäten schneller überblicken.</strong> Rote und gelbe Rahmen gliedern das Backlog nach hoher und mittlerer Priorität. Andere Spalten lassen sich über ein Sortier-Icon nach Priorität ordnen und wieder auf die manuelle Reihenfolge zurückstellen.</p>
+              <p><strong>Unteraufgaben direkt ergänzen.</strong> Ein Button am Gruppentitel fügt eine Unteraufgabe in der jeweiligen Spalte hinzu. Verschachtelte Gruppen und einheitliche Kartenabstände machen die Zusammengehörigkeit sichtbar.</p>
+              <p><strong>Leichter verschieben und navigieren.</strong> Beim Ziehen genügt eine kleine Überlappung mit der Zielspalte. Die Tagespfeile behalten ihre Position; von anderen Tagen führt „Heute“ mittig in der App-Leiste zurück zum aktuellen Tag.</p>
+              <p><strong>Erledigtes nachtragen.</strong> Über „Erledigt am …“ kann ich eine Aufgabe für heute, gestern oder ein gewähltes vergangenes Datum abschließen. Sie erscheint im Rückblick des passenden Tages; die Aktion lässt sich rückgängig machen.</p>
+            </div>
+            <figure class="phone-frame">
+              <img src="assets/images/tagesplaner/board-unteraufgaben-mac.png" alt="Schmale App-Vorschau mit der fiktiven Aufgabe „Wäsche waschen“: verschachtelte Unteraufgaben zum Sortieren und Starten der Waschmaschine, direkte Unteraufgaben-Buttons und Sortier-Icon" width="780" height="1688" loading="lazy">
+              <figcaption>Alltagsbeispiel „Wäsche waschen“: Unteraufgaben direkt an der Gruppe ergänzen und die Spalte über das Sortier-Icon ordnen. Stand 22. Oktober 2026.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <nav class="next-project section-shell" aria-label="Vorheriges Projekt">
+      <span>Vorheriges Projekt</span>
+      <a href="projekt-foerderverein.html">Förderverein <span aria-hidden="true">←</span></a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>Annette Lange · UX Design Portfolio</p>
+    <nav class="footer-links" aria-label="Weiterführende Links">
+      <a href="mailto:annette.lange@gmx.de">E-Mail</a>
+      <a href="https://www.linkedin.com/in/annette-lange" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="#main">Nach oben <span aria-hidden="true">↑</span></a>
+    </nav>
+  </footer>
+</body>
+</html>

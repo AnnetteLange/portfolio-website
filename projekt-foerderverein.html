@@ -1,0 +1,261 @@
+<!doctype html>
+<html lang="de">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="UX Case Study: Konzeption und Gestaltung einer responsiven Informationswebsite für den Förderverein Kindergarten Buchheim-Ort.">
+  <title>Förderverein · UX Case Study · Annette Lange</title>
+  <link rel="icon" href="assets/icons/favicon.svg?v=20260819b" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="design-vorschlag.css?v=20260819f">
+</head>
+<body class="motif-concept case-page case-page--violet">
+  <a class="skip-link" href="#main">Direkt zum Inhalt</a>
+
+  <header class="site-header">
+    <a class="brand" href="index.html" aria-label="Zur Portfolio-Startseite">
+      <span class="brand__mark" aria-hidden="true">AL</span>
+      <span>Annette Lange</span>
+    </a>
+    <nav class="site-nav" aria-label="Projektnavigation">
+      <a href="index.html#projekte">Alle Projekte</a>
+      <a href="projekt-zweite-liebe.html">Vorheriges Projekt <span aria-hidden="true">←</span></a>
+      <a href="projekt-tagesplaner.html">Nächstes Projekt <span aria-hidden="true">→</span></a>
+    </nav>
+  </header>
+
+  <main id="main">
+    <article>
+      <header class="case-hero section-shell">
+        <div class="case-hero__copy">
+          <p class="eyebrow">UX-Konzept · UI Design · Frontend</p>
+          <h1>Förderverein</h1>
+          <p class="case-hero__lead">Für den neuen Förderverein habe ich eine mehrseitige Informationswebsite konzipiert und als statischen Entwurf umgesetzt.</p>
+          <div class="tag-row" aria-label="Projektmerkmale">
+            <span>Responsive Website</span>
+            <span>DE &amp; EN</span>
+            <span>In Entwicklung</span>
+          </div>
+        </div>
+        <div class="case-hero__visual case-hero__visual--browser">
+          <img src="assets/images/foerderverein/foerderverein-desktop-startseite.png" alt="Responsive Startseite des Fördervereins Kindergarten Buchheim-Ort" width="1440" height="1000">
+        </div>
+        <section class="case-facts" aria-label="Projektübersicht">
+          <div><span>Problem</span><strong>Einen neuen Förderverein verständlich und vertrauenswürdig vorstellen</strong></div>
+          <div><span>Rolle</span><strong>Konzeption, Informationsarchitektur, UI Design und Frontend</strong></div>
+          <div><span>Vorgehen</span><strong>Inhalte → Hypothesen → Wireframe → Feedback → Umsetzung</strong></div>
+          <div><span>Ergebnis</span><strong>Responsive, mehrseitige Informationswebsite auf Deutsch und Englisch</strong></div>
+          <div><span>Status</span><strong>In Entwicklung</strong></div>
+        </section>
+      </header>
+
+      <section class="content-section section-shell content-grid" aria-labelledby="context-title">
+        <div class="section-heading">
+          <p class="eyebrow">01 · Kontext</p>
+          <h2 id="context-title">Ausgangslage und Ziel der Website.</h2>
+        </div>
+        <div class="prose">
+          <p>Der Förderverein organisiert finanzielle Unterstützung für den Kindergarten Buchheim-Ort. Die Website soll erklären, warum der Verein existiert, wie Unterstützung funktioniert und wofür Mittel eingesetzt werden.</p>
+          <p>Als Grundlage habe ich die Vereinssatzung und vorhandene Inhalte ausgewertet. Daraus entstand eine erste Struktur, die wichtige Fragen von Familien und Unterstützenden verständlich beantworten soll.</p>
+          <div class="goal-box">
+            <span>Designfrage</span>
+            <p>Wie können Eltern, Großeltern und Interessierte schnell verständliche Informationen finden, sodass Transparenz und Vertrauen entstehen?</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section content-section--tint" aria-labelledby="research-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading--wide">
+            <p class="eyebrow">02 · Ausgangspunkte &amp; Hypothesen</p>
+            <h2 id="research-title">Erste Bedürfnisse sammeln und als Hypothesen behandeln.</h2>
+          </div>
+          <div class="process-cards">
+            <div>
+              <span class="process-cards__number">01</span>
+              <h3>Zielgruppen-Perspektiven</h3>
+              <p>Bedürfnisse von Eltern, Angehörigen, Unterstützenden und Website-Pflegenden wurden zunächst als offene Annahmen formuliert.</p>
+            </div>
+            <div>
+              <span class="process-cards__number">02</span>
+              <h3>Fragen &amp; Erwartungen</h3>
+              <p>Für zusätzliche Perspektiven nutzte ich KI-gestützte Rollensimulationen. Die Ergebnisse behandelte ich als Hypothesen, nicht als Ersatz für Gespräche mit echten Personen.</p>
+            </div>
+            <div>
+              <span class="process-cards__number">03</span>
+              <h3>Prioritäten für die erste Version</h3>
+              <p>Verständnis des Vereins, transparente Mittelverwendung und zugängliche Inhalte erhielten für die erste Version Vorrang.</p>
+            </div>
+          </div>
+          <blockquote class="pull-quote">„Es kommt unseren eigenen Kindern zugute.“<cite>Grundgedanke aus dem Projektkontext</cite></blockquote>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" aria-labelledby="ia-title">
+        <div class="section-heading section-heading--wide">
+          <p class="eyebrow">03 · Informationsarchitektur</p>
+          <h2 id="ia-title">Inhalte ordnen und wichtige Wege festhalten.</h2>
+        </div>
+        <div class="sitemap" aria-label="Sitemap des Förderverein-Projekts">
+          <div class="sitemap__root">Startseite</div>
+          <div class="sitemap__children">
+            <span>Über uns</span>
+            <span>Projekte</span>
+            <span>Unterstützen</span>
+            <span>Aktuelles</span>
+            <span>Kontakt</span>
+            <span>Impressum</span>
+            <span>Datenschutz</span>
+          </div>
+        </div>
+        <div class="content-grid content-grid--reverse">
+          <div class="prose">
+            <p>Zuerst habe ich gesammelt, welche Fragen die Website beantworten muss. Anschließend habe ich die Inhalte auf die einzelnen Seiten verteilt und vier wichtige Wege festgehalten: den Verein verstehen, die Mittelverwendung nachvollziehen, Veranstaltungen finden und Kontakt aufnehmen.</p>
+          </div>
+          <ul class="number-list" aria-label="Zentrale Nutzerwege">
+            <li><span>01</span>Verein verstehen</li>
+            <li><span>02</span>Wirkung nachvollziehen</li>
+            <li><span>03</span>Termine finden</li>
+            <li><span>04</span>Kontakt aufnehmen</li>
+          </ul>
+        </div>
+      </section>
+
+      <section class="content-section content-section--ink" aria-labelledby="wireframe-title">
+        <div class="section-shell wireframe-section">
+          <div class="section-heading">
+            <p class="eyebrow">04 · Mobile-first Wireframe</p>
+            <h2 id="wireframe-title">Die Inhaltsreihenfolge zuerst im mobilen Wireframe prüfen.</h2>
+            <p>Der Wireframe-Entwurf prüfte die Inhaltsreihenfolge, bevor Farben, Bildmaterial und finale Texte hinzukamen. Die Sprachauswahl liegt im Header, rechtliche Seiten bleiben im Footer erreichbar.</p>
+          </div>
+          <figure class="phone-frame phone-frame--wireframe">
+            <img src="assets/images/foerderverein/foerderverein-mobile-wireframe.png" alt="Mobiler Low-Fidelity-Wireframe der Förderverein-Startseite" width="390" height="960" loading="lazy">
+            <figcaption>Mobiler Startseiten-Wireframe in Figma</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" aria-labelledby="visual-title">
+        <div class="section-heading section-heading--wide">
+          <p class="eyebrow">05 · Überarbeitung nach Feedback</p>
+          <h2 id="visual-title">Den Entwurf nach Rückmeldung des Vorstands anpassen.</h2>
+        </div>
+        <div class="content-grid">
+          <div class="prose">
+            <p>Der erste Entwurf arbeitete mit einer ruhigen Grünwelt. Nach dem Feedback des Vereinsvorstands wurde die Richtung enger an das Kindergartenlogo gekoppelt: Löwe, Gepard und Tiger prägen nun den Einstieg, ergänzt durch Orange, Gelb und dosierte bunte Akzente. Die Website sollte dadurch stärker an den Kindergarten erinnern und ein fröhliches, buntes Miteinander widerspiegeln.</p>
+            <p>Noto Sans hält längere Inhalte lesbar; Kalam setzt nur im Logo und in kurzen Akzenten eine persönliche Note. Beide Schriften werden lokal eingebunden.</p>
+          </div>
+          <div class="palette" aria-label="Farbpalette des Website-Entwurfs">
+            <span style="--swatch:#23262d"><b>Graphit</b>#23262D</span>
+            <span style="--swatch:#e66a2c"><b>Löwen-Orange</b>#E66A2C</span>
+            <span style="--swatch:#f5ce36"><b>Wildkatzen-Gelb</b>#F5CE36</span>
+            <span style="--swatch:#9446c8"><b>Violett</b>#9446C8</span>
+            <span style="--swatch:#71b94c"><b>Blättergrün</b>#71B94C</span>
+          </div>
+        </div>
+        <div class="feedback-comparison" aria-label="Vergleich des ersten und des überarbeiteten Entwurfs">
+          <figure>
+            <img src="assets/images/foerderverein/foerderverein-desktop-startseite-erster-entwurf.png" alt="Erster Desktop-Entwurf der Förderverein-Startseite mit grünem Farbschema und Haus-Logo" width="1440" height="1000" loading="lazy">
+            <figcaption><strong>Vorher:</strong> Der erste Entwurf nutzte eine ruhige Grünwelt und ein geometrisches Haus als Logo.</figcaption>
+          </figure>
+          <figure>
+            <img src="assets/images/foerderverein/foerderverein-desktop-startseite.png" alt="Überarbeitete Desktop-Startseite mit Wildkatzen-Illustration, Pfotenlogo und farbigen Akzenten" width="1440" height="1000" loading="lazy">
+            <figcaption><strong>Nach dem Feedback:</strong> Tierillustrationen, Pfotenlogo und kräftigere Farbakzente verankern die Website stärker im Kindergarten.</figcaption>
+          </figure>
+        </div>
+      </section>
+
+      <section class="content-section content-section--decision" aria-labelledby="foerderverein-decisions-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading--wide">
+            <p class="eyebrow">Entscheidungswege</p>
+            <h2 id="foerderverein-decisions-title">Von Erkenntnissen zu sichtbaren Änderungen.</h2>
+          </div>
+          <div class="decision-chain">
+            <article>
+              <div><span>Erkenntnis</span><p>Familien sollen schnell verstehen, warum es den Verein gibt und was er ermöglicht.</p></div>
+              <div><span>Entscheidung</span><p>Vereinszweck und Wirkung vor organisatorischen Details erklären.</p></div>
+              <div><span>Sichtbare Änderung</span><p>Die Startseite erklärt zuerst den Verein und zeigt danach die nächste Veranstaltung.</p></div>
+            </article>
+            <article>
+              <div><span>Erkenntnis</span><p>Der erste Entwurf wirkte dem Vorstand noch nicht fröhlich und kindergartenbezogen genug.</p></div>
+              <div><span>Entscheidung</span><p>Die visuelle Richtung enger an Logo, Tierwelt und Farbigkeit des Kindergartens koppeln.</p></div>
+              <div><span>Sichtbare Änderung</span><p>Löwe, Gepard und Tiger sowie Orange, Gelb und bunte Akzente prägen nun den Einstieg.</p></div>
+            </article>
+            <article>
+              <div><span>Erkenntnis</span><p>Freiwillige Mitarbeit könnte zunächst nach einer festen Verpflichtung klingen.</p></div>
+              <div><span>Entscheidung</span><p>Die freie Wahl von Art und Umfang der Unterstützung früher erklären.</p></div>
+              <div><span>Sichtbare Änderung</span><p>Der entlastende Hinweis steht jetzt direkt im frühen Verlauf der Startseite.</p></div>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section content-section--gallery" aria-labelledby="solution-title">
+        <div class="section-shell">
+          <div class="section-heading section-heading--wide">
+            <p class="eyebrow">06 · Website-Entwurf</p>
+            <h2 id="solution-title">Der aktuelle Stand des Website-Entwurfs.</h2>
+          </div>
+          <figure class="wide-screen">
+            <img src="assets/images/foerderverein/foerderverein-desktop-startseite.png" alt="Desktop-Startseite mit Vereinszweck und Wildkatzen-Illustration" width="1440" height="1000" loading="lazy">
+            <figcaption>Die Startseite erklärt zuerst den Verein und zeigt danach die nächste Veranstaltung.</figcaption>
+          </figure>
+          <div class="screen-story screen-story--balanced">
+            <figure class="screen-story__desktop">
+              <img src="assets/images/foerderverein/foerderverein-desktop-projekte.png" alt="Desktop-Projektseite mit laufenden und abgeschlossenen Vorhaben" width="1440" height="1000" loading="lazy">
+              <figcaption>Die Projektseite trennt laufende und abgeschlossene Vorhaben.</figcaption>
+            </figure>
+            <figure class="phone-frame">
+              <img src="assets/images/foerderverein/foerderverein-mobile-startseite.png" alt="Mobiler Einstieg der Förderverein-Startseite" width="390" height="844" loading="lazy">
+              <figcaption>Mobile Ansicht der Startseite.</figcaption>
+            </figure>
+          </div>
+        </div>
+      </section>
+
+      <section class="content-section section-shell" aria-labelledby="evaluation-title">
+        <div class="section-heading">
+          <p class="eyebrow">07 · Überprüfung &amp; Weiterentwicklung</p>
+          <h2 id="evaluation-title">Den Entwurf prüfen und schrittweise verbessern.</h2>
+        </div>
+        <div class="evaluation-list">
+          <div><span>Geprüft</span><p>Ein Expertenreview half mir, die wichtigsten Informationswege und die mobile Nutzung systematisch zu betrachten.</p></div>
+          <div><span>Angepasst</span><p>Die freiwillige Mitarbeit wird nun früher erklärt. Auch Rückmeldungen zu Navigation, Datumsdarstellung und Zugänglichkeit flossen in den Entwurf ein.</p></div>
+          <div><span>Ausgearbeitet</span><p>Die zentralen Seiten sind für Desktop und Mobil gestaltet; Deutsch und Englisch sind als Sprachversionen vorgesehen.</p></div>
+          <div><span>Nächster Schritt</span><p>Tests mit echten Nutzer:innen sollen zeigen, ob Inhalte, Sprache und wichtige Wege verständlich genug sind.</p></div>
+        </div>
+      </section>
+
+      <section class="content-section content-section--accent">
+        <div class="section-shell reflection-grid">
+          <div>
+            <p class="eyebrow">Aktueller Stand</p>
+            <h2>Die Website befindet sich noch in Entwicklung.</h2>
+          </div>
+          <div class="prose">
+            <p>Konzept, Inhaltsstruktur, visuelle Richtung und responsive Seiten sind ausgearbeitet.</p>
+            <p>Als Nächstes möchte ich den Entwurf mit echten Nutzer:innen prüfen und auf Grundlage ihrer Rückmeldungen weiterentwickeln.</p>
+          </div>
+        </div>
+      </section>
+    </article>
+
+    <nav class="next-project section-shell" aria-label="Nächstes Projekt">
+      <span>Nächstes Projekt</span>
+      <a href="projekt-tagesplaner.html">Tagesplaner <span aria-hidden="true">→</span></a>
+    </nav>
+  </main>
+
+  <footer class="site-footer">
+    <p>Annette Lange · UX Design Portfolio</p>
+    <nav class="footer-links" aria-label="Weiterführende Links">
+      <a href="mailto:annette.lange@gmx.de">E-Mail</a>
+      <a href="https://www.linkedin.com/in/annette-lange" target="_blank" rel="noopener noreferrer">LinkedIn <span aria-hidden="true">↗</span></a>
+      <a href="impressum.html">Impressum</a>
+      <a href="datenschutz.html">Datenschutz</a>
+      <a href="#main">Nach oben <span aria-hidden="true">↑</span></a>
+    </nav>
+  </footer>
+</body>
+</html>
