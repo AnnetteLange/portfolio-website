@@ -342,26 +342,111 @@ h2 {
 }
 
 .legal-page {
-  padding-block: clamp(4.5rem, 9vw, 8rem);
+  max-width: 62rem;
+  padding-block: clamp(2.5rem, 6vw, 5rem);
 }
 
-.legal-page__header,
-.legal-copy {
-  max-width: 48rem;
+.legal-page__header {
+  margin-bottom: 2rem;
 }
 
 .legal-page h1 {
-  margin-bottom: 2rem;
-  font-size: clamp(3.2rem, 8vw, 6.5rem);
+  margin-bottom: 1rem;
+  font-size: clamp(2.5rem, 6vw, 4rem);
+  line-height: 1.12;
+  letter-spacing: -0.035em;
+  text-align: left;
+}
+
+.legal-meta {
+  margin: 0;
+  color: var(--muted);
+  font-size: 0.95rem;
+}
+
+.legal-toc {
+  margin-bottom: 1.5rem;
+  padding: clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--violet-soft);
+}
+
+.legal-toc h2 {
+  margin-bottom: 1rem;
+  font-size: 1rem;
+  line-height: 1.4;
+  letter-spacing: 0;
+}
+
+.legal-toc ul {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.6rem;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.legal-toc a {
+  display: block;
+  padding: 0.55rem 0.85rem;
+  border: 1px solid var(--line);
+  border-radius: 0.6rem;
+  background: var(--white);
+  font-size: 0.9rem;
+  line-height: 1.5;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.legal-toc a:hover {
+  text-decoration: underline;
 }
 
 .legal-copy {
-  font-size: 1.08rem;
+  padding: clamp(1.25rem, 4vw, 3rem);
+  border: 1px solid var(--line);
+  border-radius: var(--radius);
+  background: var(--white);
+  font-size: 1.0625rem;
+  line-height: 1.8;
+  overflow-wrap: anywhere;
 }
 
 .legal-copy h2 {
-  margin: 3rem 0 1rem;
-  font-size: clamp(1.6rem, 3vw, 2.3rem);
+  margin: 2rem 0 1rem;
+  padding-top: 2rem;
+  border-top: 1px solid var(--line);
+  font-size: clamp(1.2rem, 2.5vw, 1.5rem);
+  line-height: 1.4;
+  letter-spacing: -0.015em;
+  text-wrap: initial;
+  scroll-margin-top: 1.5rem;
+}
+
+.legal-copy h2:first-child {
+  margin-top: 0;
+  padding-top: 0;
+  border-top: 0;
+}
+
+.legal-copy p,
+.legal-copy ul {
+  max-width: 70ch;
+  margin-bottom: 1.25rem;
+}
+
+.legal-copy > :last-child {
+  margin-bottom: 0;
+}
+
+.legal-copy ul {
+  padding-left: 1.3rem;
+}
+
+.legal-copy li + li {
+  margin-top: 0.5rem;
 }
 
 .legal-note {
